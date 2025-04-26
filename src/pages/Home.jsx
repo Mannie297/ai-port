@@ -47,7 +47,7 @@ function Home() {
   return (
     <div className="container mx-auto px-4 py-8">
       <header className="text-center mb-12">
-        <h1 className="text-4xl font-bold text-gray-800 mb-4">Emmanuel.O AI Engineer Portfolio</h1>
+        <h1 className="text-4xl font-bold text-gray-800 mb-4">Emmanuel Okelue AI/ ML Portfolio</h1>
         <p className="text-xl text-gray-600">Showcasing my work in Artificial Intelligence and Machine Learning</p>
       </header>
 
