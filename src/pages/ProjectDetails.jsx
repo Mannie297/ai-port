@@ -2,7 +2,7 @@ import { useParams, Link } from 'react-router-dom';
 import demoImage from '../assets/images/demo.png';
 import streamlitApp from '../assets/images/streamlit_app.png';
 import dashboard from '../assets/images/dashboard.png';
-import chatbot from '../assets/images/chatbot.jpg';
+import cb from '../assets/images/chatinterface.jpg';
 import cv from '../assets/images/vision.jpg';
 
 const projects = [
@@ -41,8 +41,8 @@ const projects = [
     title: "AI Chatbot",
     description: "Conversational AI assistant with natural language understanding",
     longDescription: "An intelligent chatbot that understands context and maintains natural conversations. Built with transformer models and integrated with various APIs for enhanced functionality.",
-    image: chatbot,
-    technologies: ["Python", "TensorFlow", "WebSocket"],
+    image: cb,
+    technologies: ["React", "Typescript", "Axios", "OpenAI API"],
     githubLink: "https://github.com/Mannie297/ai-chatbot",
     demoLink: "https://github.com/Mannie297/ai-chatbot"
   },
@@ -52,7 +52,7 @@ const projects = [
     description: "Real-time object detection and recognition",
     longDescription: "A real-time computer vision system that performs object detection, face recognition, and scene understanding. Optimized for performance with hardware acceleration support.",
     image: cv,
-    technologies: ["OpenCV", "PyTorch", "React"],
+    technologies: ["OpenCV", "Ultralytics", "Streamlit"],
     githubLink: "https://github.com/Mannie297/computer-vision",
     demoLink: "https://github.com/Mannie297/computer-vision"
   }

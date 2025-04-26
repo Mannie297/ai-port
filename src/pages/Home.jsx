@@ -32,14 +32,14 @@ const projects = [
     title: "AI Chatbot",
     description: "Conversational AI assistant with natural language understanding",
     image: chatbot,
-    technologies: ["Python", "TensorFlow", "WebSocket"]
+    technologies: ["React", "Typescript", "Axios", "OpenAI API"]
   },
   {
     id: 5,
     title: "Computer Vision System",
     description: "Real-time object detection and recognition",
     image: cvSystem,
-    technologies: ["OpenCV", "PyTorch", "React"]
+    technologies: ["OpenCV", "Ultralytics", "Streamlit"]
   }
 ];
 
